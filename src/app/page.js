@@ -5,6 +5,8 @@ import Image from "next/image";
 import MainCard from "@/components/MainCard/MainCard";
 import OurServices from "@/components/OurServices/OurServices";
 import Testimonials from "@/components/Testimonials/Testimonials";
+import ContactUs from "@/components/HomeContactUs/ContactUs";
+import FreqQuestions from "@/components/QuestionsSection/FreqQuestions";
 
 const page = () => {
   return (
@@ -31,6 +33,12 @@ const page = () => {
       </div>
       <div className="flex justify-center grid grid-cols-1 p-10">
         <Testimonials />
+      </div>
+      <div className="flex justify-center grid grid-cols-1 p-10">
+        <ContactUs />
+      </div>
+      <div className="flex justify-center grid grid-cols-1 p-10">
+        <FreqQuestions />
       </div>
     </section>
   );
