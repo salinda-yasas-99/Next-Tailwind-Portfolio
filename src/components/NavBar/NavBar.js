@@ -14,7 +14,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex bg-white justify-between items-center h-24 max-w-[1300px] mx-auto px-4 text-white">
+    <div className="flex bg-white justify-between items-center h-24 max-w-[1850px] mx-auto px-4 text-white">
       <h1 className="w-full">
         <Link href={"/"}>
           <Image src={logoImg} width={100} height={100} alt={"logo"} />
