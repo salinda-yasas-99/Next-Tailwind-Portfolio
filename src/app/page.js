@@ -13,7 +13,7 @@ const page = () => {
   return (
     <section className="w-full flex-center flex-col mt-4 grid grid-cols-1">
       <div className="grid md:grid-cols-2 sm:grid-cols-1">
-        <div>
+        <div className="px-10">
           <h1 className="head_text text-left p-2">
             Shaping a Limitless <br />
             Digital Future

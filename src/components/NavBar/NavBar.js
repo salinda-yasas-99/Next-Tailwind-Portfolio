@@ -49,7 +49,7 @@ const NavBar = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-[#387fc4] bg-[#fff] ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[15%] h-full border-r border-r-[#387fc4] bg-[#fff] ease-in-out duration-500"
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
@@ -57,18 +57,26 @@ const NavBar = () => {
           <Image src={logoImg} width={100} height={100} alt={"logo"} />
         </div>
         <ul className="uppercase p-4">
-          <li className="p-4 border-b-2 text-[#387fc4] border-[#387fc4]">
-            Home
-          </li>
-          <li className="p-4 border-b-2 text-[#387fc4] border-[#387fc4]">
-            About
-          </li>
-          <li className="p-4 border-b-2 text-[#387fc4] border-[#387fc4]">
-            Services
-          </li>
-          <li className="p-4 border-b-2 text-[#387fc4] border-[#387fc4]">
-            Contact
-          </li>
+          <Link href={"/"} onClick={handleNav}>
+            <li className="p-4 border-b-2 text-[#387fc4] border-[#387fc4]">
+              Home
+            </li>
+          </Link>
+          <Link href={"/about"} onClick={handleNav}>
+            <li className="p-4 border-b-2 text-[#387fc4] border-[#387fc4]">
+              About
+            </li>
+          </Link>
+          <Link href={"/service"} onClick={handleNav}>
+            <li className="p-4 border-b-2 text-[#387fc4] border-[#387fc4]">
+              Services
+            </li>
+          </Link>
+          <Link href={"/contacts"} onClick={handleNav}>
+            <li className="p-4 border-b-2 text-[#387fc4] border-[#387fc4]">
+              Contact
+            </li>
+          </Link>
         </ul>
       </div>
     </div>

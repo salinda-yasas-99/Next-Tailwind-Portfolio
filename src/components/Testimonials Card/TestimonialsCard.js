@@ -2,9 +2,9 @@ import React from "react";
 
 const TestimonialsCard = () => {
   return (
-    <div className="p-4 text-gray-800 rounded-lg shadow-md">
+    <div className="p-4 text-gray-800 rounded-lg shadow-md bg-white">
       <div className="mb-2">
-        <p className="mb-2 text-center text-gray-600 ">
+        <p className="my-2 text-center text-gray-600">
           " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
           sapiente iusto esse. "
         </p>

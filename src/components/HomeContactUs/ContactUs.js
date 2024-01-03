@@ -7,13 +7,16 @@ import { IoLocationSharp } from "react-icons/io5";
 
 const ContactUs = () => {
   return (
-    <div className="grid md:grid-cols-2 sm:grid-cols-1 w-[1240px]">
-      <div>
-        <h1 className="head_text text-left">Let us know what you think!</h1>
+    <div className="grid md:grid-cols-2 sm:grid-cols-1 w-[1700px]">
+      <div className="py-52 pl-40">
+        <h1 className="head_text text-left">
+          Let us know what
+          <br /> you think!
+        </h1>
         <p className="desc text-left mt-4 italic">
-          Lorem ipsum dolor sit amet consectetur. Porta phasellus ipsum tellus
-          morbi amet orci faucibus lectus lacus vitae feugiat enim ultricies
-          etiam morbi dui risus.
+          Lorem ipsum dolor sit amet consectetur. Porta phasellus ipsum
+          <br /> tellus morbi amet orci faucibus lectus lacus <br />
+          vitae feugiat enim ultricies etiam morbi dui risus.
         </p>
       </div>
       <div>
