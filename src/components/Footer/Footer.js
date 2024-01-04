@@ -9,8 +9,8 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="grid grid-cols-3 bg-[#211f54] ">
-      <div className="flex flex-col justify-center items-center col-span-3 w-300 h-1000 bg-[#d8f4fe] m-20 p-24 rounded-2xl">
+    <div className="grid sm:grid-cols-3 grid-cols-2 bg-[#211f54] ">
+      <div className="flex flex-col justify-center items-center col-span-3 md:w-300 md:h-1000 bg-[#d8f4fe] m-20 p-24 rounded-2xl">
         <h1 className="text-[#211f54] text-4xl">Have an idea?</h1>
         <p className="text-[#211f54] text-2xl mt-4">
           Let's get your project started today!
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
         </button>
       </div>
-      <div className="flex col-span-3 mt-0 mx-20">
+      <div className="flex col-span-3 mt-0 mx-20x">
         <Image src={logoImg} width={150} height={125} alt={"logo"} />
       </div>
       {/* row1 */}
@@ -39,7 +39,7 @@ const Footer = () => {
           <input
             type="text"
             placeholder="Enter your email address"
-            className="h-4"
+            className="h-6 w-48"
           />
           <button className="px-6 py-3 bg-gradient-to-r from-[#3c83c6] to-[#92cbf5] rounded-full">
             Subscribe

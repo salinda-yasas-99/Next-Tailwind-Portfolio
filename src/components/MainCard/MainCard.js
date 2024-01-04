@@ -5,7 +5,7 @@ import AboutImg from "../../assets/aboutUs.svg";
 const MainCard = () => {
   return (
     <div className="w-[1900px] bg-[#211f54] rounded-3xl p-10">
-      <div className="grid md:grid-cols-2 sm:grid-cols-1  ">
+      <div className="grid sm:grid-cols-2 grid-cols-1">
         <div className="flex justify-center items-center">
           <Image src={AboutImg} width={400} height={400} />
         </div>

@@ -18,14 +18,16 @@ const page = () => {
             Shaping a Limitless <br />
             Digital Future
           </h1>
-          <p className="desc text-left mt-4 italic p-2">
+          <p className="desc sm:text-left text-center mt-4 italic p-2">
             Join us in pushing boundaries and helping businesses thrive in the
             digital era....
           </p>
-          <button className="text-[white] bg-[#201f54] mt-4 px-5 py-3 rounded-full ml-2">
-            <div className="flex">
-              Get in Touch
-              <FaArrowRight />
+          <button className="text-[white] w-full sm:w-[250px] bg-[#201f54] mt-4 px-5 py-3 rounded-full ml-2">
+            <div className="flex items-center gap-2 justify-center">
+              <div>Get in Touch</div>
+              <div>
+                <FaArrowRight />
+              </div>
             </div>
           </button>
         </div>
