@@ -4,7 +4,7 @@ import OurServicesCard from "../OurServicesCard/OurServicesCard";
 
 const OurServices = () => {
   return (
-    <div className="grid md:grid-cols-2 sm:grid-cols-1 w-[1700px]">
+    <div className="grid md:grid-cols-2 sm:grid-cols-1 w-[1400px]">
       <div className="py-40  pl-40">
         <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#3980c5]  to-[#9ce1fb] text-6xl font-semibold text-left">
           Our Services

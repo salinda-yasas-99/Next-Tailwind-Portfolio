@@ -7,7 +7,7 @@ import { IoLocationSharp } from "react-icons/io5";
 
 const ContactUs = () => {
   return (
-    <div className="grid md:grid-cols-2 sm:grid-cols-1 w-[1700px]">
+    <div className="grid md:grid-cols-2 sm:grid-cols-1 w-[1400px]">
       <div className="py-52 pl-40">
         <h1 className="head_text text-left">
           Let us know what
