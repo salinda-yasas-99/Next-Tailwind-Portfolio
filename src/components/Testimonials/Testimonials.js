@@ -3,7 +3,7 @@ import TestimonialsCard from "../Testimonials Card/TestimonialsCard";
 
 const Testimonials = () => {
   return (
-    <div className="grid grid-cols-1 bg-[#211f54] sm:p-24 p-16 ">
+    <div className="grid grid-cols-1 bg-[#211f54] sm:p-24 p-5 ">
       <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#3980c5]  to-[#9ce1fb] sm:text-6xl text-4xl font-semibold text-left">
         What our clients have to say
       </h1>

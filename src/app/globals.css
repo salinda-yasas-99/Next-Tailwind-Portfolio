@@ -7,5 +7,5 @@
 }
 
 body {
-  @apply sm:mx-10;
+  @apply sm:mx-7 mx-0;
 }
