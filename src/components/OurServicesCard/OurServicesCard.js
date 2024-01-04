@@ -19,7 +19,7 @@ const OurServicesCard = () => {
           Custom Software Development
         </h5>
       </div>
-      <div className="grid grid-cols-4 grid-rows-2 border-[#9ee3fc] border-t-2 px-6 py-3 bg-[#f5fcff] gap-2">
+      <div className="grid grid-cols-4 grid-rows-2 px-6 py-3 bg-[#f5fcff] gap-2">
         {/* Row1 */}
         <div className="grid grid-cols-2 grid-row-1 gap-0 items-center">
           <div className="pl-4">
