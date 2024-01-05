@@ -9,11 +9,11 @@ const MainCard = () => {
         <div className="flex justify-center items-center">
           <Image src={AboutImg} width={400} height={400} />
         </div>
-        <div className="align-middle p-10">
+        <div className="align-middle sm:p-10 p-2 ">
           <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#4e94d0]  to-[#9ce1fb] text-4xl font-semibold">
             About Us
           </p>
-          <p className="text-white pr-200 text-xl mt-5">
+          <p className="text-white sm:pr-200 sm:text-xl sm:mt-5 mt-[10px]">
             At <span className="text-[#9ee3fc]">INNOV8 FUSION</span>, we lead
             the charge in technology innovation. Our mission is to redefine
             possibilities through cutting-edge solutions, shaping a future where
@@ -21,7 +21,7 @@ const MainCard = () => {
             journey as we harness the power of innovation, unlocking limitless
             opportunities for growth and success.
           </p>
-          <button className="border-[#9ee3fc] border-2 bg-transparent p-4 text-[#9ee3fc] mt-3 rounded-full p-3">
+          <button className="border-[#9ee3fc] border-2 bg-transparent p-4 text-[#9ee3fc] mt-4 rounded-full">
             Read More
           </button>
         </div>
