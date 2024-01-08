@@ -26,7 +26,7 @@ const AbtHero = () => {
           </p>
         </div>
         {/* Row2 */}
-        <div className="col-span-2 ml-[179px] mt-[69px] items-center justify-center">
+        <div className="col-span-2 flex ml-[179px] mt-[69px] items-center justify-center">
           <Image src={AbtLanding} width={"1100"} height={"360"} />
         </div>
 
