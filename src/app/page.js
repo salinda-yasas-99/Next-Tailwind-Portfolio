@@ -11,7 +11,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const page = () => {
   return (
-    <section className="w-full flex-center flex-col mt-4 grid grid-cols-1">
+    <div className="w-full flex-center flex-col mt-4 grid grid-cols-1">
       <div className="grid md:grid-cols-2 sm:grid-cols-1">
         <div className="px-10">
           <h1 className="head_text text-left p-2">
@@ -50,7 +50,7 @@ const page = () => {
       <div className="flex justify-center grid grid-cols-1 p-10">
         <FreqQuestions />
       </div>
-    </section>
+    </div>
   );
 };
 
