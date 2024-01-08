@@ -1,9 +1,10 @@
+import AbtHero from "@/components/About Page Components/AbtHero";
 import React from "react";
 
 const page = () => {
   return (
-    <div>
-      <h1>This is About</h1>
+    <div className="flex flex-col">
+      <AbtHero />
     </div>
   );
 };
