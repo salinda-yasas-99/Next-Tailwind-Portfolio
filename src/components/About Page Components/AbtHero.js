@@ -9,7 +9,7 @@ const AbtHero = () => {
     <div className="flex w-full">
       <div className="grid grid-cols-2 grid-rows-3 gap-[105px]">
         {/* Row1 */}
-        <div className="">
+        <div>
           <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#010247] via-[#3980c5]  to-[#9ce1fb] text-[42px] font-[800] leading-[48px] mt-[188px] ml-[179px]">
             Crafting Our Legacy
           </h1>
@@ -31,7 +31,7 @@ const AbtHero = () => {
         </div>
 
         {/* Row3 */}
-        <div className="bg-[#f5fcff] rounded-lg border-[#93ccf2] border-2 mx-[90px] col-span-2 flex flex-row px-[72px] py-[72px] gap-4 justify-center items-center">
+        <div className="bg-[#f5fcff] rounded-3xl border-[#93ccf2] border-2 mx-[90px] col-span-2 flex flex-row px-[72px] py-[72px] gap-4 justify-center items-center">
           <div className="grid grid-cols-2 grid-row-1 bg-[#fff] border-[#0d1d62] border-2 rounded-xl px-[33px] py-[28px] justify-center items-center">
             <div className="flex flex-col items-center justify-center">
               <Image src={Icon1} />
