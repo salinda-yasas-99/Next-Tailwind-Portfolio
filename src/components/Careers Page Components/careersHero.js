@@ -1,8 +1,10 @@
 import React from "react";
+import ServiceImg from "../../assets/ServiceHero.png";
+import Image from "next/image";
 
 const CareersHero = () => {
   return (
-    <div className="flex w-full">
+    <div className="flex w-full flex-col">
       <div className="grid grid-cols-2">
         <div>
           <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#010247] via-[#3980c5]  to-[#9ce1fb] text-[42px] font-[800] leading-[48px] mt-[188px] ml-[179px]">
@@ -20,6 +22,9 @@ const CareersHero = () => {
             efficiency for businesses across industries.
           </p>
         </div>
+      </div>
+      <div className="ml-[179px] mt-[69px] items-center justify-center">
+        <Image src={ServiceImg} />
       </div>
     </div>
   );
