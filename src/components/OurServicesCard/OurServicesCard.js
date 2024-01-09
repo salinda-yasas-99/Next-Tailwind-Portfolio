@@ -7,91 +7,88 @@ import cakePhp from "../../assets/CSD icons/cakephp.png";
 import drupal from "../../assets/CSD icons/drupal.png";
 import wordPress from "../../assets/CSD icons/wordpress.png";
 import laravel from "../../assets/CSD icons/laravel.png";
+import { FaGreaterThan } from "react-icons/fa";
 
 const OurServicesCard = () => {
   return (
-    <div className="border-[#9ee3fc] border-2 block rounded-lg bg-white text-center shadow-[0_2px_15px_-3px_rgba(56,127,296,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-70 h-70">
-      <div className="flex flex-col p-6 items-center">
-        <div className="flex justify-center items-center bg-[#ebf2f9] rounded-xl  h-10 w-10">
+    <div className="border-[#387fc4] border-[0.5px] rounded-lg bg-white text-center w-[288px] h-auto">
+      <div className="flex flex-row p-6 justify-center items-center gap-[18px]">
+        <div className="flex justify-center items-center bg-[#ebf2f9] rounded-xl h-[54px] w-[54px] ml-[18px] p-[4px]">
           <HiOutlineDesktopComputer color={"#387fc4"} />
         </div>
-        <h5 className="mb-2 text-xl font-medium leading-tight text-#6d758f">
+        <h5 className="text-[color:var(--Neutral-colors-600,#6D758F)] text-xl not-italic font-extrabold leading-7 leading-trim: both text-edge: cap font-family: Inter text-left">
           Custom Software Development
         </h5>
       </div>
-      <div className="grid grid-cols-4 grid-rows-2 px-6 py-3 bg-[#f5fcff] gap-2">
-        {/* Row1 */}
-        <div className="grid grid-cols-2 grid-row-1 gap-0 items-center">
-          <div className="pl-4">
+
+      <div className="flex flex-col bg-[#f5fcff] pl-[19px] py-[14px] rounded-lg">
+        <div className="flex flex-row">
+          <div>
             <Image src={php} alt="php" />
           </div>
-          <div className="text-xs">PHP</div>
-        </div>
-
-        <div className="col-span-2 grid grid-cols-2 grid-row-1 items-center">
-          <div className="pl-6">
-            <Image src={wordPress} alt="php" className="h-6 w-6" />
+          <div className="ml-[8px]">
+            <p className="text-[color:var(--Neutral-colors-600,#6D758F)] text-[16.393px] font-normal leading-[24.589px] leading-trim-both font-family: Inter">
+              PHP
+            </p>
           </div>
-          <div className="text-xs"> Wordpress</div>
         </div>
-
-        <div className=" grid grid-cols-2 grid-row-1 items-center">
-          <div className="pl-0">
-            <Image src={drupal} alt="php" className="h-6 w-6" />
+        <div className="flex flex-row my-[18px]">
+          <div>
+            <Image src={wordPress} alt="php" />
           </div>
-          <div className="text-xs">Drupal</div>
-        </div>
-        {/* Row2  */}
-        <div className="col-auto grid grid-cols-2 grid-row-1 items-center" />
-        <div className="col-auto grid grid-cols-2 grid-row-1 items-center">
-          <div className="">
-            <Image src={cakePhp} alt="Cake PHP" className="h-6 w-6" />
+          <div className="ml-[8px]">
+            <p className="text-[color:var(--Neutral-colors-600,#6D758F)] text-[16.393px] font-normal leading-[24.589px] leading-trim-both font-family: Inter">
+              Word Press
+            </p>
           </div>
-          <div className="text-xs"> CakePHP</div>
         </div>
-
-        <div className="col-auto grid grid-cols-2  grid-row-1 items-center gap-2">
-          <div className="pl-4">
-            <Image src={laravel} alt="php" className="h-6 w-6" />
+        <div className="flex flex-row">
+          <div>
+            <Image src={drupal} alt="php" />
           </div>
-          <div className="text-xs"> Laravel</div>
+          <div className="ml-[8px]">
+            <p className="text-[color:var(--Neutral-colors-600,#6D758F)] text-[16.393px] font-normal leading-[24.589px] leading-trim-both font-family: Inter">
+              Drupal
+            </p>
+          </div>
         </div>
-        <div className="col-auto grid grid-cols-2 grid-row-1 items-center" />
+        <div className="flex flex-row  my-[18px]">
+          <div>
+            <Image src={cakePhp} alt="php" />
+          </div>
+          <div className="ml-[8px]">
+            <p className="text-[color:var(--Neutral-colors-600,#6D758F)] text-[16.393px] font-normal leading-[24.589px] leading-trim-both font-family: Inter">
+              Cake PHP
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-row">
+          <div>
+            <Image src={laravel} alt="php" />
+          </div>
+          <div className="ml-[8px]">
+            <p className="text-[color:var(--Neutral-colors-600,#6D758F)] text-[16.393px] font-normal leading-[24.589px] leading-trim-both font-family: Inter">
+              Laravel
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-row">
+          <button className="w-full sm:w-[135px] bg-[#f5fcff] mt-4 px-5 py-3 rounded-full ml-2 border-[#387fc4] border-2">
+            <div className="flex items-center gap-2 justify-center">
+              <div className="text-[color:var(--Primary,#387FC4)] text-center text-xs not-italic font-semibold leading-5">
+                Read More
+              </div>
+              <div>
+                <p>
+                  <FaGreaterThan color={"#387fc4"} />
+                </p>
+              </div>
+            </div>
+          </button>
+        </div>
       </div>
     </div>
   );
 };
 
 export default OurServicesCard;
-
-{
-  /* <div className="grid grid-cols-1 justify-center items-center border-[#9ee3fc] border-t-2 0 px-6 py-3 bg-[#f5fcff]">
-        <div className="grid grid-col-3 grid-rows-1">
-          <div className="grid grid-col-2 grid-rows-1">
-            <div>
-              <Image src={php} alt="php" className="h-6 w-6" />
-            </div>
-            <div> PHP</div>
-          </div>
-          <div>
-            <Image src={wordPress} alt="php" className="h-6 w-6" />
-            Wordpress
-          </div>
-          <div>
-            <Image src={drupal} alt="php" className="h-6 w-6" />
-            Drupal
-          </div>
-        </div>
-
-        <div className="grid grid-col-2 grid-rows-1">
-          <div>
-            <Image src={cakePhp} alt="Cake PHP" className="h-6 w-6" />
-            CakePHP
-          </div>
-          <div>
-            <Image src={laravel} alt="php" className="h-6 w-6" />
-            Laravel
-          </div>
-        </div>
-      </div> */
-}
