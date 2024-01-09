@@ -8,6 +8,8 @@ import Testimonials from "@/components/Testimonials/Testimonials";
 import ContactUs from "@/components/HomeContactUs/ContactUs";
 import FreqQuestions from "@/components/QuestionsSection/FreqQuestions";
 import { FaArrowRight } from "react-icons/fa";
+import Process from "@/components/Home Process/Process";
+import Pioneer from "@/components/Pioneer/Pioneer";
 
 const page = () => {
   return (
@@ -45,7 +47,11 @@ const page = () => {
         <Testimonials />
       </div>
       <div className="flex justify-center grid grid-cols-1 p-10">
-        <ContactUs />
+        {/* <ContactUs /> */}
+        <Process />
+      </div>
+      <div className="flex justify-center grid grid-cols-1 p-10">
+        <Pioneer />
       </div>
       <div className="flex justify-center grid grid-cols-1 p-10">
         <FreqQuestions />
