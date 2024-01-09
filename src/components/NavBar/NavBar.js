@@ -33,6 +33,9 @@ const NavBar = () => {
         <Link href={"/contacts"}>
           <li className="des_li blue_btn">Contact</li>
         </Link>
+        <Link href={"/careers"}>
+          <li className="des_li blue_btn">Careers</li>
+        </Link>
       </ul>
       <div
         role="button"
@@ -75,6 +78,11 @@ const NavBar = () => {
           <Link href={"/contacts"} onClick={handleNav}>
             <li className="p-4 border-b-2 text-[#387fc4] border-[#387fc4]">
               Contact
+            </li>
+          </Link>
+          <Link href={"/careers"} onClick={handleNav}>
+            <li className="p-4 border-b-2 text-[#387fc4] border-[#387fc4]">
+              Careers
             </li>
           </Link>
         </ul>
